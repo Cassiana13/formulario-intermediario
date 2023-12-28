@@ -1,0 +1,259 @@
+*{
+    margin:0;
+    padding:0;
+
+
+
+}
+/*******Incio da Pagina******/
+
+body{
+    background: #EFEFEF;
+
+    font-style: normal;
+}
+
+body::before{
+    content:"";
+    width: 100%;
+    height: 436px;
+   
+    position:absolute;
+    top:0;
+    left: 0;
+    z-index: -1;
+    background: #535971;
+
+}
+
+.page{
+    width:750px;
+    margin:auto;
+
+}
+header{
+    width: 417px;
+    margin-top: 140px;
+
+}
+
+h1{
+   
+   
+  font-family: 'Staatliches', sans-serif;
+  font-size: 48px;
+  
+  font-weight: 400;
+  line-height: normal;
+  color: #FFFFFF;
+
+  margin-bottom: 18px;
+
+}
+p {
+    font-family: 'Poppins', sans-serif;
+    color: #FFF;
+
+
+     font-size: 20px;
+     
+     font-weight: 400;
+     line-height: normal
+}
+  
+/**********Formulário*********/
+
+form{
+   
+    padding: 64px;
+    margin-top: 58px;
+    min-height: 300px;
+    
+    background: #FFFFFF;
+    border-radius: 20px 20px 0px 0px;
+
+    font-family: Poppins;
+    font-size: 14px;
+    line-height: 24px;
+
+    display: flex;
+    flex-direction: column;
+   
+}
+
+fieldset {
+    border: none;
+   
+}
+
+fieldset legend{
+
+color: #535971;
+font-family: Staatliches;
+font-size: 24px;
+line-height: 34px;
+
+border-bottom: 1px solid #E6E6F0;
+width:  622px;;
+padding-bottom: 16px;
+margin-bottom: 32px;
+
+
+}
+
+fieldset label{
+    margin: 16px 0 8px;
+    
+
+}
+
+fieldset label span{
+    color: #C1BCCC;
+    font-size: 12px;
+    line-height: 20px;
+
+    margin-left: 9px;
+   
+
+}
+
+.troop label span:hover{
+    color: #4E4958;
+}
+.bunch{
+    display: flex;
+    gap: 22px;
+   
+}
+.name,
+.surname,
+.troop {
+    
+  display:flex; 
+  flex-direction: column;
+    
+}
+
+.bunch input{
+width: 300px;
+height: 56px;
+border-radius: 8px;
+border: 1px solid #E6E6F0;
+background:#FAFAFC;
+
+padding: 3px;
+color: #535971;;
+
+font-family: Poppins;
+font-size: 12px;
+font-weight: 400;
+line-height: 20px;
+
+}
+  
+
+.troop input{
+    
+    
+    height: 56px;
+    border-radius: 8px;
+    border: 1px solid #E6E6F0;
+    background: #FAFAFC;
+
+    padding: 4px;
+
+   
+}
+
+/***************Informações do Mentor****************/
+
+.leader{
+   margin:30px auto 32px;
+
+}
+
+/****************Horários****************/
+
+h2{
+
+color: #535971;
+
+font-family: Staatliches;
+font-size: 20px;
+font-weight: 400;
+line-height: 34px;
+
+margin-bottom: 11px;
+}
+
+.onetime,
+.twotime{
+    display: flex;
+    gap: 10px;
+    
+
+}
+ .onetime > div:nth-child(1),
+ .twotime > div:nth-child(1){
+    width: 100%;
+    margin-right:22px;
+    
+    
+}
+
+.onetime input,
+.twotime input{
+font-family: Poppins;
+font-size: 12px;
+font-weight: 400;
+line-height: 20px;
+
+color: #C1BCCC;
+margin-bottom: 64px;
+}
+
+/*************Footer*************/
+
+footer{
+    
+    
+    height: 160px;
+    background: #535971;
+    display: flex;
+    flex-direction: column;
+   
+    
+    padding: 51px 71px 0 71px ;
+    
+    
+
+    border-radius: 0px 0px 20px 20px;
+    
+    margin-bottom: 365px;
+    
+ 
+}
+footer .button{
+
+height: 55px;  
+
+padding: 15px 40px;
+
+
+
+border-radius: 20px;
+background: #FF5374;
+
+color: #FFF;
+
+font-family: Staatliches;
+font-size: 20px;
+
+font-weight: 400;
+line-height: 26px;
+}
+
+
+footer .button:hover{
+    background: #FF5350;
+}
